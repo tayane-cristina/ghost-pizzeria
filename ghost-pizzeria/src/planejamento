@@ -1,0 +1,18 @@
+/*Ghost Pizzeria
+ Lado cliente e lado servidor 
+
+ LADO  CLIENTE
+ Autenticação
+ Cardápio disponível - (Nome do produto, preço, descrição, tamanhos, imagem)
+ Carrinho de compras
+ Opção de dar feedBacks
+ Opção de ler feedBacks
+ Pedidos relaizados anteriormente.
+
+LADO SERVIDOR
+
+Autenticação
+Cardápio disponível
+opção de colocar mais itens no cardápio
+opção de remover pratos do cardápio
+*/
