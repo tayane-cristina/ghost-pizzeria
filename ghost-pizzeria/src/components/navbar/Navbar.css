@@ -1,0 +1,101 @@
+/*Esquema de cores vermleho e laranja */
+
+/*PRE-HEADER*/
+.headerPage-pre{
+background-color: rgba(128, 128, 128, 0.205);
+margin: 0;
+height: 5vh;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.headerPage-pre-ul-authentication{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    list-style: none;
+}
+
+.headerPage-pre-ul-authentication li, span{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 5px;
+}
+
+.headerPage-pre-ul-authentication li:hover, span:hover {
+    color: black;
+}
+
+.headerPage-ul-SocialMedial{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 10%;
+    margin: 10px;
+    margin-left: auto;
+}
+
+.headerPage-ul-SocialMedial li {
+    list-style: none;
+}
+
+.headerPage-ul-SocialMedial-img{
+    width: 30px;
+    height: 30px;
+ }
+
+ /*HEADER*/
+
+.headerPage-principalHeader {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.headerPage-logo{
+    font-size: 45px;
+    padding: 10px;
+}
+
+.headerPage-form{
+}
+
+.headerPage-nav-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+    list-style: none;
+    font-size: 18px;
+}
+
+.headerPage-input-search{
+   padding: 10px;
+   width: 57vw;
+   margin: 10px;
+   padding: 15px;
+   border-radius: 5px;
+}
+
+.headerPage-button-search{
+    background-color: rgb(206, 203, 206);
+    width: 5vw;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
