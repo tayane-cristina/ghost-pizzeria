@@ -1,0 +1,23 @@
+.cardsMenu-ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cardsMenu-li {
+    list-style: none;
+}
+
+.cardsMenu-img {
+    width: 100px;
+    height: 100px;
+}
+
+.cardsMenu-li-price {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

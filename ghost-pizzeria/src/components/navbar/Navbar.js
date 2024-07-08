@@ -1,5 +1,7 @@
 import React from 'react';
 import './Navbar.css';
+import FilterItem from '../filterItem/FilterItem';
+import { menu } from '../../data/Data';
 
 //O que vai no componente Header:
 /*ls
@@ -34,10 +36,6 @@ const Navbar = () => {
                     <li>Programações</li>
                 </ul>
             </nav>
-            <form className='headerPage-form'>
-                <input className='headerPage-input-search' type='text' placeholder='Pizza de ...'></input>
-                <button className='headerPage-button-search'>Buscar</button>
-            </form>
         </header>
     </div>
   );

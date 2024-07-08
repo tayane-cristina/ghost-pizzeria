@@ -15,4 +15,15 @@ Autenticação
 Cardápio disponível
 opção de colocar mais itens no cardápio
 opção de remover pratos do cardápio
+
+
+Components para criar:
+
+- Exibir os pratos do cardápio
+- Filtrar os pratos do cardápio
+
+
+INFORMAÇÕES SOBRE OS PRATOS:
+
+Nome / preço de acordo com os Tam. / tamanhos / descrições / avaliação de 5 estrelas 
 */
