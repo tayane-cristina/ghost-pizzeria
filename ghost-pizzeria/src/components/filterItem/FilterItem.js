@@ -6,12 +6,8 @@ const FilterItem = ({list}) => {
 
     const [itemFilter, setItemFilter] = useState("")
 
-    console.log(itemFilter)
-
     const filteredItem = list.filter((item) => item.displayName.toLowerCase().includes(itemFilter.toLowerCase()))
 
-    console.log(filteredItem)
-    
   return (
     <div>
         <form className='headerPage-form'>

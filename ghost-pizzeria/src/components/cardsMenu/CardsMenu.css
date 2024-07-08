@@ -3,6 +3,8 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 100px;
+    height: 100vh;
 }
 
 .cardsMenu-li {
@@ -20,4 +22,19 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.cardsMenu-button-addInCart{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.cardsMenu-button-addInCart:hover {
+    background-color: rgb(5, 100, 5);
 }

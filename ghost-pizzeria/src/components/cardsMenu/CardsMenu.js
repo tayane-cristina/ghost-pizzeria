@@ -17,6 +17,7 @@ const CardsMenu = ({list}) => {
             ))}</ul>
             <p>Descrição: {item.description}</p>
             <p>Avaliação: {item.rate} </p>
+            <button className='cardsMenu-button-addInCart'>Adicionar ao carrinho</button>
         </li>
       ))}
     </ul>
