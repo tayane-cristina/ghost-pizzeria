@@ -18,6 +18,7 @@ const Navbar = () => {
         <div className='headerPage-pre'>
             <ul className='headerPage-pre-ul-authentication'>
                 <span>GHOST Pizzeria</span>
+                <li><img src='https://img.icons8.com/?size=30&id=59997&format=png' alt='imagem-de-carrinho-de-compras'/></li>
                 <li>Login</li>
                 <li>Criar cadastro</li>
             </ul>

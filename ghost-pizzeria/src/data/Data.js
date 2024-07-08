@@ -10,7 +10,7 @@ export const menu = [
         }
       ],
       isGourmet: false,
-      image: "https://img.icons8.com/?size=48&id=80764&format=png"
+      image: "https://cdn0.tudoreceitas.com/pt/posts/9/8/3/pizza_calabresa_e_mussarela_4389_600.jpg"
     },
     
     { id: 2,
@@ -24,7 +24,7 @@ export const menu = [
            }
         ],
       isGourmet: false,
-      image: "https://img.icons8.com/?size=48&id=80764&format=png"
+      image: "https://cdn.casaeculinaria.com/wp-content/uploads/2023/08/07170031/Pizza-Napolitana.webp"
     },
 
     { id: 3,
@@ -38,7 +38,7 @@ export const menu = [
         }
       ],
       isGourmet: false,
-      image: "https://img.icons8.com/?size=48&id=80764&format=png",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuekRAm8yUmqXyheb8-INhhjbw1bOjrtV5lA&s",
     },
 
    {  id: 4,
@@ -52,7 +52,7 @@ export const menu = [
         }
       ],
       isGourmet: false,
-      image: "https://img.icons8.com/?size=48&id=80764&format=png",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG9RtO9DnlRTYWc3oYXolEeJxsNNo2G7qMDw&s",
    },
    {  id: 5,
     displayName: "Margherita", 
@@ -65,7 +65,7 @@ export const menu = [
       }
     ],
     isGourmet: false,
-    image: "https://img.icons8.com/?size=48&id=80764&format=png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzF-qElINgvbPGWN06yRqj81S6VbtY9yPgwg&s",
  },
  {  id: 6,
   displayName: "Pepperoni", 
@@ -78,7 +78,7 @@ export const menu = [
     }
   ],
   isGourmet: false,
-  image: "https://img.icons8.com/?size=48&id=80764&format=png",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkLX2LaXSJGOcAt2owcFIBE7ffn2p4eoUnFQ&s",
 },
 {  id: 7,
   displayName: "Frango com Catupiry ", 
@@ -91,12 +91,12 @@ export const menu = [
     }
   ],
   isGourmet: false,
-  image: "https://img.icons8.com/?size=48&id=80764&format=png",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8-TQUlaPVwQk9-LbJpjfuqh7LTQckxGAbSg&s",
 },
 {  id: 8,
-  displayName: "Bacon", 
+  displayName: "Carne seca", 
   rate: 3.5,
-  description: "bacon, mussarela",
+  description: "carne seca, mussarela, cebola",
   price: [
     {P: 20,
      M: 35,
@@ -104,7 +104,7 @@ export const menu = [
     }
   ],
   isGourmet: false,
-  image: "https://img.icons8.com/?size=48&id=80764&format=png",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXk5jZ-xfnBQdzmGQMt891YCkIIOe7wkEvvQ&s",
 },
 {  id: 9,
   displayName: "Atum", 
@@ -117,7 +117,7 @@ export const menu = [
     }
   ],
   isGourmet: false,
-  image: "https://img.icons8.com/?size=48&id=80764&format=png",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-pccnTs8OiE81Jnn8xgpD2DkZCc_CKxfZ_A&s",
 },
 {  id: 10,
   displayName: "Vegetariana", 
@@ -130,7 +130,7 @@ export const menu = [
     }
   ],
   isGourmet: false,
-  image: "https://img.icons8.com/?size=48&id=80764&format=png",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYwepTKEkI7kGPdpsXX4AdnEeoQF-bTymLvg&s",
 },
 {  id: 11,
   displayName: "Carbonara", 
@@ -143,7 +143,7 @@ export const menu = [
     }
   ],
   isGourmet: false,
-  image: "https://img.icons8.com/?size=48&id=80764&format=png",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwCJoBMfnuf-qY71ReR4z17mVG7M-G4NvG2g&s",
 },
 {  id: 12,
   displayName: "Quatro Estações", 
@@ -156,7 +156,7 @@ export const menu = [
     }
   ],
   isGourmet: false,
-  image: "https://img.icons8.com/?size=48&id=80764&format=png",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ50dOJ_LKjklaxDaaAgLYfNXId3ChzChAtEw&s",
 },
 {  id: 13,
   displayName: "Alho e Óleo", 
@@ -169,7 +169,7 @@ export const menu = [
     }
   ],
   isGourmet: false,
-  image: "https://img.icons8.com/?size=48&id=80764&format=png",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpHDoBkPOw2-S3gTzkCZwIJhqHLpTdRRXpmA&s",
 },
 {  id: 14,
   displayName: "Palmito", 
@@ -182,7 +182,7 @@ export const menu = [
     }
   ],
   isGourmet: false,
-  image: "https://img.icons8.com/?size=48&id=80764&format=png",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1vvZtObGZ-SoWd7eu6G8nYUpBbb-_chWW-Q&s",
 },
 {  id: 15,
   displayName: "Escarola", 
@@ -195,7 +195,7 @@ export const menu = [
     }
   ],
   isGourmet: false,
-  image: "https://img.icons8.com/?size=48&id=80764&format=png",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiIK0K_nxx8kkjndxy8BHP8A0iX4RtNvXhxQ&s",
 },
 {  id: 16,
   displayName: "Chocolate com Morango", 
@@ -208,7 +208,7 @@ export const menu = [
     }
   ],
   isGourmet: false,
-  image: "https://img.icons8.com/?size=48&id=80764&format=png",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX66k4T31x4VGyvIu7hm8p_ndgb5baj9srPw&s",
 },
 {  id: 17,
   displayName: "Brigadeiro", 
@@ -221,7 +221,7 @@ export const menu = [
     }
   ],
   isGourmet: false,
-  image: "https://img.icons8.com/?size=48&id=80764&format=png",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyOHzcjgn6kpP3xB7dVlajpEEFVkNp_C943A&s",
 },
 {  id: 18,
   displayName: "Banana com Canela", 
@@ -234,7 +234,7 @@ export const menu = [
     }
   ],
   isGourmet: false,
-  image: "https://img.icons8.com/?size=48&id=80764&format=png",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSejPfV5alftYYSRKGa7uixe27WLZBvX35J2A&s",
 },
 {  id: 19,
   displayName: "Romeu e Julieta", 
@@ -247,7 +247,7 @@ export const menu = [
     }
   ],
   isGourmet: false,
-  image: "https://img.icons8.com/?size=48&id=80764&format=png",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdAFBQDuoSmGh3tvEDslxFjDBUNH8-ZFCeIg&s",
 },
 {  id: 20,
   displayName: "Nutella com Banana", 
@@ -260,7 +260,7 @@ export const menu = [
     }
   ],
   isGourmet: false,
-  image: "https://img.icons8.com/?size=48&id=80764&format=png",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjeHc2KVXNFvOrvXY-tPTVPuOlQr6QfCR27A&s",
 },
 
 ]
