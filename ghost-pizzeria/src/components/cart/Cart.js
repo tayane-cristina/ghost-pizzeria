@@ -62,6 +62,7 @@ const Cart = () => {
     <div className='cart-principal-div'>
       <div>
         <h2>Carrinho de compras</h2>
+        <hr />
       </div>
 
       <div className='cart-totalPrice'>
