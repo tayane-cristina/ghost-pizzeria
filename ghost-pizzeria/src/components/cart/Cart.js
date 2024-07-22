@@ -1,20 +1,7 @@
 import React from 'react';
 import './Cart.css'
-import { useState } from 'react';
-import ReducerItens from '../reducerItens/ReducerItens';
-import { menu } from '../../data/Data';
 
-//Opção de desmarcar todos os itens
-//Soma de todos os itens dentro do carrinho no aside
-
-/*Produtos dentro do carrinho
-- image
-nome
-preço
-descrição
-*/
-
-const Cart = () => {
+const Cart = ({cartItems}) => {
 
   return (
     <div className='cart-principal-div'>
@@ -22,8 +9,27 @@ const Cart = () => {
         <h2>Carrinho de compras</h2>
         <hr />
 
-        <ReducerItens productsList={menu}/>
-        
+        <ul>
+          {!cartItems ? <p>Seu carrinho está vazio</p> : cartItems.map((item, index) => (
+            <li key={index}>
+              <img src={item.image} alt={`Imagem-de-${item.displayName}`} />
+              <p><strong>{item.displayName}</strong></p>
+              <ul>{item.price.map((plate, i) => (
+                <li className='cardsMenu-li-price' key={i}>
+                    <p>P: R${plate.P} /</p>
+                    <p>M: R${plate.M} /</p>
+                    <p>G: R${plate.G}</p>
+                </li>
+            ))}</ul>
+              <div className='amount-itens-in-cart'>
+                <button className='decrease-quantity'>-</button>
+                <span>1</span>
+                <button className='increase-quantity'>+</button>
+              </div>
+            </li>
+          ))}
+          
+        </ul>
       </div>
     </div>
   );

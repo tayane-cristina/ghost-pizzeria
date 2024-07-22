@@ -1,4 +1,4 @@
-import React from 'react';
+/*
 import { useState, useReducer} from 'react';
 
 const ReducerItens = ({productsList}) => {
@@ -16,7 +16,7 @@ const ReducerItens = ({productsList}) => {
         case "ADD":
           return {
             ...state,
-            cartProducts: []
+            cartProducts: [...products, action.item]
           }
 
         case "REMOVE":
@@ -37,19 +37,11 @@ const ReducerItens = ({productsList}) => {
     const [state, dispatch] = useReducer(itensReducer, initialState);
 
     const handleToAddItens = (item) => {
-      dispatch({type: "ADD"})
+      dispatch({type: "ADD", item})
     };
 
     const handleToRemoveItens = (index) => {
       dispatch({type: "REMOVE"})
-    };
-
-    const handleToIncreaseItens = () => {
-      dispatch({type: "INCREASE_QUANTITY"})
-    };
-
-    const handleToDeacreaseItens = () => {
-      dispatch({type: "DECREASE_QUANTITY"})
     };
 
   return (
@@ -62,10 +54,12 @@ const ReducerItens = ({productsList}) => {
           <p>Nome: {item}</p>
           <button onClick={() => handleToAddItens(item)}>button to add</button>
           <button onClick={() => handleToRemoveItens(index)}>button to remove</button>
-          <button onClick={handleToIncreaseItens}>button to increase itens</button>
-          <button onClick={handleToDeacreaseItens}>button to decrease itens</button>
         </li>
       ))}
+  </ul>
+
+  <ul>
+    {cartProducts.map((item) => <p>{item}</p>)}
   </ul>
 
       
@@ -75,3 +69,5 @@ const ReducerItens = ({productsList}) => {
 };
 
 export default ReducerItens;
+
+*/
