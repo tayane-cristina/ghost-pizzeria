@@ -1,7 +1,15 @@
 import React from 'react';
 import './Cart.css'
+//import HandleToRemoveItens from '../handleItens/handleToRemoveItens/HandleToRemoveItens';
+import { useState } from 'react';
 
 const Cart = ({cartItems}) => {
+
+  const [total, setTotatl] = useState(0)
+
+  const removeItem = (itemId) => {
+    {cartItems.map(product => product.id === itemId ? console.log("Faz isso") : console.log("Faz aquilo") )}
+  }
 
   return (
     <div className='cart-principal-div'>
@@ -15,18 +23,12 @@ const Cart = ({cartItems}) => {
               <li className='product-cart-li' key={index}>
                 <img className='product-cart-image' src={item.image} alt={`Imagem-de-${item.displayName}`} />
                 <p className='product-cart-displayName'><strong>{item.displayName}</strong></p>
-                <ul>{item.price.map((plate, i) => (
-                  <li className='product-cart-li-price' key={i}>
-                      <p>P: R${plate.P} </p>
-                      <p>M: R${plate.M} </p>
-                      <p>G: R${plate.G}</p>
-                  </li>
-              ))}</ul>
+                <p>R$ {item.price.toFixed(2)}</p>
                 <div className='amount-itens-in-cart'>
                   <button className='btn-amount decrease-quantity'>-</button>
-                  <span>1</span>
+                  <span>{item.quantity}</span>
                   <button className='btn-amount increase-quantity'>+</button>
-                  <button className='btn-amount trash'><img src='https://img.icons8.com/?size=24&id=85194&format=png' alt='imagem-de-lixeira'/></button>
+                  <button className='btn-amount trash' onClick={removeItem(item.id)}><img src='https://img.icons8.com/?size=24&id=85194&format=png' alt='imagem-de-lixeira'/></button>
                 </div>
               </li>
             ))}
