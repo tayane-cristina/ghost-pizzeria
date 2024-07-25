@@ -23,9 +23,10 @@ const Cart = ({cartItems}) => {
                   </li>
               ))}</ul>
                 <div className='amount-itens-in-cart'>
-                  <button className='decrease-quantity'>-</button>
+                  <button className='btn-amount decrease-quantity'>-</button>
                   <span>1</span>
-                  <button className='increase-quantity'>+</button>
+                  <button className='btn-amount increase-quantity'>+</button>
+                  <button className='btn-amount trash'><img src='https://img.icons8.com/?size=24&id=85194&format=png' alt='imagem-de-lixeira'/></button>
                 </div>
               </li>
             ))}

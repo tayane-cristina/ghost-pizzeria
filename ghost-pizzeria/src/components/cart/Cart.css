@@ -53,23 +53,13 @@
     flex-wrap: wrap;
 }
 
-.decrease-quantity {
+.btn-amount {
     border-radius: 50%;
     width: 35px;
     height: 35px;
     border: none;
     font-size: 20px;
     background-color: rgba(102, 100, 100, 0.603);
-    cursor: pointer;
-}
-
-.increase-quantity {
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    border: none;
-    font-size: 20px;
-    background-color: rgb(102, 100, 100, 0.603);
     cursor: pointer;
 }
 
