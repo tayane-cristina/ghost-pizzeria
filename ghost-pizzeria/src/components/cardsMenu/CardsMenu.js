@@ -10,8 +10,19 @@ const CardsMenu = ({list}) => {
 
   const addAtCart = (product) => {
     
-    setCart([...cart, product])
-    
+    setCart((prevCart) => [...prevCart, product])
+  }
+
+  const removeItem = (id) => {
+    setCart(cart.map(item => item.id === id ? {...item, quantity: 0}: item))
+  }
+
+  const increaseItem = (id) => {
+    setCart(cart.map(item => item.id === id ?  {...item, quantity: item.quantity + 1} : item))
+  }
+
+  const decreaseItem = (id) => {
+    setCart(cart.map(item => item.id === id ?  {...item, quantity: item.quantity - 1} : item))
   }
 
   console.log(cart)
@@ -28,7 +39,7 @@ const CardsMenu = ({list}) => {
             <button className='cardsMenu-button-addInCart' onClick={() => addAtCart(item)}>Adicionar ao carrinho</button>
         </li>
       ))}
-      <Cart cartItems={cart} />
+      <Cart cartItems={cart} removeItem={removeItem} increaseItem={increaseItem} decreaseItem={decreaseItem}/>
     </ul>
   );
 };
