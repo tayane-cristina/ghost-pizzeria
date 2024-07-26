@@ -8,19 +8,31 @@ const CardsMenu = ({list}) => {
 
   const [cart, setCart] = useState([])
 
+  //FUNCTION TO ADD PRODUCTS IN CART
   const addAtCart = (product) => {
     
-    setCart((prevCart) => [...prevCart, product])
+  const itemIndex = cart.findIndex(item => item.id === product.id);
+
+    if (itemIndex > -1) {
+    increaseItem(product.id);
+    } else {
+    setCart([...cart, product]);
   }
 
+   //(prevCart) => [...prevCart, product]
+  }
+
+  //FUNCTION TO REMOVE PRODUCTS OF THE CART
   const removeItem = (id) => {
     setCart(cart.map(item => item.id === id ? {...item, quantity: 0}: item))
   }
 
+  //FUNCTION TO INCREASE PRODUCTS ALREADY IN THE CART
   const increaseItem = (id) => {
     setCart(cart.map(item => item.id === id ?  {...item, quantity: item.quantity + 1} : item))
   }
 
+  //FUNCTION TO DECREASE PRODUCTS ALREADY IN CART
   const decreaseItem = (id) => {
     setCart(cart.map(item => item.id === id ?  {...item, quantity: item.quantity - 1} : item))
   }
