@@ -35,6 +35,7 @@ const Navbar = () => {
                 <ul className='headerPage-nav-ul'>
                     <li>Restaurantes</li>
                     <li>Programações</li>
+                    <li>Cardápio</li>
                 </ul>
             </nav>
         </header>

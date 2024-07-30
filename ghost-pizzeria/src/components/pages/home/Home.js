@@ -1,15 +1,13 @@
 import React from 'react';
-import { menu } from '../../../data/Data';
-import FilterItem from '../../filterItem/FilterItem';
-import Login from '../login/Login';
-import Register from '../register/Register';
-import Cart from '../../cart/Cart';
-
+import TopFive from '../../topFive/TopFive';
+import Events from '../../events/Events';
+import './Home.css'
 
 const Home = () => {
   return (
-    <div>
-      <FilterItem list={menu}/>
+    <div className='principal-div-home'>
+     <TopFive />
+     <Events />
       
     </div>
   );

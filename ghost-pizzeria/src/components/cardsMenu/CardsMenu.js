@@ -37,8 +37,6 @@ const CardsMenu = ({list}) => {
     setCart(cart.map(item => item.id === id ?  {...item, quantity: item.quantity - 1} : item))
   }
 
-  console.log(cart)
-
   return (
     <ul className='cardsMenu-ul'>
       {list.map((item, index) => (

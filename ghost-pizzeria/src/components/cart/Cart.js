@@ -2,7 +2,6 @@ import './Cart.css'
 
 const Cart = ({cartItems, removeItem, increaseItem, decreaseItem}) => {
 
-  //const [total, setTotatl] = useState(0);
 
 
   return (

@@ -1,0 +1,10 @@
+.div-principal-events {
+    height: 50vh;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    background-color: rgba(7, 7, 7, 0.144);
+    background-image: url(https://images.pexels.com/photos/1449773/pexels-photo-1449773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+}
