@@ -3,7 +3,10 @@
     padding: 20px;
     width: 90%;
     margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     background-color: rgba(7, 7, 7, 0.863);
+    border-radius: 10px;
 }
 
 .top-five-ul {

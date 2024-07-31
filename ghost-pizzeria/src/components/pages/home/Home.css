@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 10px;
-    min-height: auto;
-
+    justify-content: space-around;
+    margin-top: 20px;
 }

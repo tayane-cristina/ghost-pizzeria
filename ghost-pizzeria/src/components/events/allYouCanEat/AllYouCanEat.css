@@ -1,0 +1,27 @@
+.principal-div-all-you-can-eat {
+    width: 35vw;
+    height: 85vh;
+    margin: 2rem;
+}
+
+
+.all-you-can-eat-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.all-you-can-eat-infor {
+    background-color: rgba(0, 0, 0, 0.61);
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: start;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.all-you-can-eat-h2 {
+    font-size: 35px;
+    color: white;
+}

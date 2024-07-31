@@ -1,0 +1,31 @@
+.principal-div-party {
+   width: 70vw;
+   margin: 2rem;
+}
+
+.party-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.party-infor {
+    background-color: rgba(0, 0, 0, 0.719);
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: start;
+    font-weight: 400;
+    font-weight: 900;
+}
+
+.party-infor li {
+    list-style: none;
+    padding: 6px;
+    font-weight: 100;
+}
+
+.party-h2 {
+    font-size: 35px;
+    color: white;
+}

@@ -1,0 +1,31 @@
+.principal-div-crazyTuesday {
+    width: 35vw;
+    height: 85vh;
+    margin: 2rem;
+}
+
+.crazy-tuesday-h2 {
+    font-size: 35px;
+    color: white;
+}
+
+.crazy-tuesday-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.crazy-tuesday-infor {
+    background-color: rgba(0, 0, 0, 0.61);
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: start;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.crazy-tuesday-infor li {
+    list-style: none;
+    margin: 5px;
+}

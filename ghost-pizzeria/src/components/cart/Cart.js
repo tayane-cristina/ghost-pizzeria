@@ -1,6 +1,6 @@
 import './Cart.css'
 
-const Cart = ({cartItems, removeItem, increaseItem, decreaseItem}) => {
+const Cart = ({cartItems, removeItem, increaseItem, decreaseItem, total}) => {
 
 
 
@@ -19,9 +19,9 @@ const Cart = ({cartItems, removeItem, increaseItem, decreaseItem}) => {
                 <p className='product-cart-displayName'><strong>{item.displayName}</strong></p>
                 <p>R$ {item.price.toFixed(2)}</p>
                 <div className='amount-itens-in-cart'>
-                  <button onClick={() => decreaseItem(item.id)} className='btn-amount decrease-quantity'>-</button>
+                  <button onClick={() => decreaseItem(item)} className='btn-amount decrease-quantity'>-</button>
                   <span>{item.quantity}</span>
-                  <button onClick={() => increaseItem(item.id)} className='btn-amount increase-quantity'>+</button>
+                  <button onClick={() => increaseItem(item)} className='btn-amount increase-quantity'>+</button>
                   <button className='btn-amount trash' onClick={() => removeItem(item.id)}><img src='https://img.icons8.com/?size=24&id=85194&format=png' alt='imagem-de-lixeira'/></button>
                 </div>
               </li>
@@ -30,7 +30,11 @@ const Cart = ({cartItems, removeItem, increaseItem, decreaseItem}) => {
 
           <div className='account'>
             <p>TOTAL</p>
-            <span>R$ 0</span>
+            <span>R${total.toFixed(2)}</span>
+          </div>
+
+          <div className='finish'>
+            {cartItems.length === 0 ? <button className='btn-finish' disabled>Finalizar pedido</button> : <button className='btn-finish'>Finalizar pedido</button>}
           </div>
 
         </div>
