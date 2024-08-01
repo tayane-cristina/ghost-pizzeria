@@ -10,6 +10,12 @@ const CardsMenu = ({list}) => {
   const [cart, setCart] = useState([])
   const [total, setTotal] = useState(0)
 
+  const orderClosed = () => {
+    console.log("funcionou")
+    alert("Obrigada por realizar o seu pedido na Ghost Pizzaria! Infelizmente seu pedido não será entregue, pois assim como a empresa, os produtos também são fastasma. Espero que tenha tido uma boa experiência de navegação pelo site, e que volte mais vezes, obrigado pela sua companhia. Atenciosamente.")
+    setCart([])
+  }
+
   const updateTotal = () => {
     const newTotal = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
     setTotal(newTotal);
@@ -38,12 +44,22 @@ const CardsMenu = ({list}) => {
 
   //FUNCTION TO INCREASE PRODUCTS ALREADY IN THE CART
   const increaseItem = (itemId) => {
-    setCart(cart.map(item => item.id === itemId.id ?  {...item, quantity: item.quantity + 1} : item))
+    setCart(cart.map(item => item.id === itemId ?  {...item, quantity: item.quantity + 1} : item))
   }
 
   //FUNCTION TO DECREASE PRODUCTS ALREADY IN CART
   const decreaseItem = (itemId) => {
-    setCart(cart.map(item => item.id === itemId.id ?  {...item, quantity: item.quantity - 1} : item))
+    setCart(cart => cart.reduce((acc, item) => {
+      if (item.id === itemId) {
+        if (item.quantity > 1) {
+          acc.push({ ...item, quantity: item.quantity - 1 });
+        }
+        // Se a quantidade for 1, o item não é adicionado ao novo carrinho, ou seja, ele é removido.
+      } else {
+        acc.push(item);
+      }
+      return acc;
+    }, []));
   }
 
   return (
@@ -58,7 +74,7 @@ const CardsMenu = ({list}) => {
             <button className='cardsMenu-button-addInCart' onClick={() => addAtCart(item)}>Adicionar ao carrinho</button>
         </li>
       ))}
-      <Cart cartItems={cart} removeItem={removeItem} increaseItem={increaseItem} decreaseItem={decreaseItem} total={total}/>
+      <Cart cartItems={cart} removeItem={removeItem} increaseItem={increaseItem} decreaseItem={decreaseItem} total={total} orderClosed={orderClosed}/>
     </ul>
   );
 };
