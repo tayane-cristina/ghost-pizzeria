@@ -1,0 +1,43 @@
+.principal-div-local {
+    background-color: salmon;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(185, 179, 179, 0.521);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.local-units {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.unit {
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.unit-local-restaurant-img{
+    width: 400px;
+    height: 550px;
+    border-radius: 5px;
+}
+
+.unit-title{
+    font-size: 30px;
+    text-align: start;
+    padding:5px;
+    font-weight: 400;
+    font-family: Verdana;
+}
+
+.local-h2 {
+    color: rgb(128, 128, 128);
+    font-size: 35px;
+    font-family: Verdana;
+}

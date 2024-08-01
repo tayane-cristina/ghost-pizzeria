@@ -23,7 +23,6 @@ const TopFive = () => {
         </li>
       ))}
       </ul>
-      <a className='link-top-five-all-menu'><strong>Ver todos os sabores</strong></a>
     </div>
   );
 };

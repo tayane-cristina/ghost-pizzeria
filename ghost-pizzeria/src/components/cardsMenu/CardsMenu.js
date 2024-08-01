@@ -39,13 +39,13 @@ const CardsMenu = ({list}) => {
 
   //FUNCTION TO REMOVE PRODUCTS OF THE CART
   const removeItem = (id) => {
-    setCart(cart.map(item => item.id === id ? {...item, quantity: 0}: item))
-  }
+    setCart(cart.filter(item => item.id !== id));
+  };
 
   //FUNCTION TO INCREASE PRODUCTS ALREADY IN THE CART
   const increaseItem = (itemId) => {
     setCart(cart.map(item => item.id === itemId ?  {...item, quantity: item.quantity + 1} : item))
-  }
+  };
 
   //FUNCTION TO DECREASE PRODUCTS ALREADY IN CART
   const decreaseItem = (itemId) => {
@@ -60,7 +60,7 @@ const CardsMenu = ({list}) => {
       }
       return acc;
     }, []));
-  }
+  };
 
   return (
     <ul className='cardsMenu-ul'>

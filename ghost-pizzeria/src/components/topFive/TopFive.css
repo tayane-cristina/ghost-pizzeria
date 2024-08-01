@@ -1,12 +1,11 @@
 .principal-div-top-five {
-    height: auto;
-    padding: 20px;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    background-color: rgba(7, 7, 7, 0.863);
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(185, 179, 179, 0.521);
     border-radius: 10px;
+    margin-bottom: 30px;
+    
 }
 
 .top-five-ul {
@@ -47,8 +46,7 @@
 }
 
 .h2-top-five {
-    width: 82%;
-    text-align: start;
-    margin: auto;
-    color: white;
+    color: rgb(128, 128, 128);
+    font-size: 35px;
+    font-family: Verdana;
 }

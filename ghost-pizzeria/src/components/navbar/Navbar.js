@@ -1,24 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; 
 import './Navbar.css';
-import FilterItem from '../filterItem/FilterItem';
-import { menu } from '../../data/Data';
-
-//O que vai no componente Header:
-/*ls
-    header e pré-header
-    - LOGO
-    - Opções de autenticação
-    - Opção de pesquisa
-    - contatos / redes sociais / paginá de localição 
-*/
 
 const Navbar = () => {
   return (
     <div>
         <div className='headerPage-pre'>
             <ul className='headerPage-pre-ul-authentication'>
-                <span>GHOST Pizzeria</span>
-                <li><img src='https://img.icons8.com/?size=30&id=59997&format=png' alt='imagem-de-carrinho-de-compras'/></li>
+                <Link to='/'><span>GHOST Pizzeria</span></Link>
+                <Link to='/cart'><li><img src='https://img.icons8.com/?size=30&id=59997&format=png' alt='imagem-de-carrinho-de-compras'/></li></Link>
                 <li>Login</li>
                 <li>Criar cadastro</li>
             </ul>
@@ -30,12 +20,12 @@ const Navbar = () => {
         </div>
 
         <header className='headerPage-principalHeader'>
-            <h2 className='headerPage-logo'>GHOST</h2>
+            <Link to='/'><h2 className='headerPage-logo'>GHOST</h2></Link>
             <nav>
                 <ul className='headerPage-nav-ul'>
-                    <li>Restaurantes</li>
-                    <li>Programações</li>
-                    <li>Cardápio</li>
+                    <Link to="/local"><li>Restaurantes</li></Link>
+                    <Link to="/events"><li>Programações</li></Link>
+                    <Link to="/menu"><li>Cardápio</li></Link>
                 </ul>
             </nav>
         </header>

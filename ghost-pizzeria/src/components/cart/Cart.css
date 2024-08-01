@@ -118,3 +118,8 @@
     flex-wrap: wrap;
    
 }
+
+.empty-cart{
+    text-align: center;
+    width: 100vw;
+}

@@ -1,7 +1,6 @@
 import './Cart.css'
 
 const Cart = ({cartItems, removeItem, increaseItem, decreaseItem, total, orderClosed}) => {
-
   return (
     <div className='cart-principal-div'>
       <div>

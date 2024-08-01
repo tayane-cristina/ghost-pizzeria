@@ -1,0 +1,40 @@
+.principal-div-preview-events {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(185, 179, 179, 0.521);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.events-h2 {
+    color: rgb(128, 128, 128);
+    font-size: 35px;
+    font-family: Verdana;
+}
+
+.events-preview-events {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 55vh;
+    padding: 20px;
+}
+
+.event {
+    width: 30%;
+    height: 90%;
+    padding: 5px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.img-preview-event {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
