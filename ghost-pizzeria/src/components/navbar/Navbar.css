@@ -1,8 +1,25 @@
 /*Esquema de cores vermleho e laranja */
+a {
+    text-decoration: none;
+}
+
+.principal-div-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fafafa;
+    color: white;
+    padding: 3px;
+    z-index: 1000; 
+    margin-bottom: 15rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
 
 /*PRE-HEADER*/
 .headerPage-pre{
-background-color: rgba(128, 128, 128, 0.205);
+background-color: rgb(221, 8, 8);
+color: white;
 margin: 0;
 height: 5vh;
 display: flex;
@@ -69,9 +86,6 @@ align-items: center;
 .headerPage-logo{
     font-size: 45px;
     padding: 10px;
-}
-
-.headerPage-form{
 }
 
 .headerPage-nav-ul{

@@ -10,7 +10,7 @@ const TopFive = ({}) => {
  
   return (
     <div className='principal-div-top-five'>
-      <h2 className='h2-top-five'>Top 5 favoritas</h2>
+      <h2 className='h2-top-five'>Destaques</h2>
       <ul className='top-five-ul'>
         {topFiveItems.map((item, index) => (
         <Link to='/menu'>

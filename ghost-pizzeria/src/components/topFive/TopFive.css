@@ -1,22 +1,21 @@
 .principal-div-top-five {
-    width: 85%;
+    width: 80vw;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(185, 179, 179, 0.521);
     border-radius: 10px;
     margin-bottom: 30px;
-    
 }
 
 .top-five-ul {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 95%;
-    height: 100%;
+    height: auto;
     padding: 30px;
     justify-content: space-evenly;
     border-radius: 10px;
-
 }
 
 .link-top-five-all-menu{
@@ -43,6 +42,7 @@
 .top-five-ul a {
     text-decoration: none;
     color: black;
+    width: 20%;
 }
 
 .top-five-img {

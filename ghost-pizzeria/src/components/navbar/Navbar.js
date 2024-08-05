@@ -4,7 +4,7 @@ import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='principal-div-navbar'>
         <div className='headerPage-pre'>
             <ul className='headerPage-pre-ul-authentication'>
                 <Link to='/'><span>GHOST Pizzeria</span></Link>

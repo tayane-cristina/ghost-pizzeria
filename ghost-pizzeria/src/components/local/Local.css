@@ -1,11 +1,12 @@
 .principal-div-local {
     background-color: salmon;
-    width: 85%;
+    width: 79vw;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(185, 179, 179, 0.521);
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
     padding: 15px;
 }
 
@@ -34,8 +35,8 @@
 }
 
 .unit-local-restaurant-img{
-    width: 400px;
-    height: 550px;
+    width: 350px;
+    height: 500px;
     border-radius: 5px;
 }
 

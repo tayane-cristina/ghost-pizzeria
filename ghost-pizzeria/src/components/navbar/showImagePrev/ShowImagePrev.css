@@ -1,0 +1,16 @@
+.img-prev {
+    width: 450px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.principal-div-img-prev {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 25px;
+    width: 86vw;
+    margin-bottom: 2rem;
+}
