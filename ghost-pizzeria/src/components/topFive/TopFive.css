@@ -37,6 +37,12 @@
     margin: 10px;
     padding: 15px;
     border: 10px;
+    
+}
+
+.top-five-ul a {
+    text-decoration: none;
+    color: black;
 }
 
 .top-five-img {

@@ -5,6 +5,7 @@ const Local = () => {
   return (
     <div className='principal-div-local'>
         <h2 className='local-h2'>Faça-nos uma visita</h2>
+        <p className='local-p'>Nossos restuarantes ficam localizados nas mais belas cidades do Rio de Janeiro, com fácil acesso, e estacionamento para clientes, venha e traga sua família e amigos, ficaremos muito felizes em recebê-los!</p>
 
         <div className='local-units'>
             <div className='unit'>

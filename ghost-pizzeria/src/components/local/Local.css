@@ -6,6 +6,17 @@
     background-color: rgba(185, 179, 179, 0.521);
     border-radius: 10px;
     margin-bottom: 30px;
+    padding: 15px;
+}
+
+.local-p{
+    font-size: 25px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    font-family: Verdana;
+    line-height: 1.2;
 }
 
 .local-units {
