@@ -1,11 +1,11 @@
 .cart-principal-div {
-    width: 70%;
+    width: 25%;
     min-height: 50vh;
     padding: 20px;
 }
 
 .cart-title {
-    font-size: 35px;
+    font-size: 25px;
     font-family: Impact;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .total-text {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .total-text-price {
@@ -55,6 +55,7 @@
 .infor-order {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -72,7 +73,8 @@
 .product-cart-ul {
     display: flex;
     flex-direction: row;
-    max-width: 40vw;
+    flex-wrap: wrap;
+    width: 100%;
     flex-wrap: wrap;
 }
 
@@ -116,10 +118,10 @@
     justify-content: space-between;
     align-self: baseline;
     flex-wrap: wrap;
-   
 }
 
 .empty-cart{
     text-align: center;
-    width: 100vw;
+    width: 100%;
+    font-size: 20px;
 }

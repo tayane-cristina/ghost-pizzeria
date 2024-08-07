@@ -21,7 +21,7 @@ const PreviewEvents = () => {
               <Link to="/events" className='link-knowMore' >Saber mais...</Link>
           </div>
           <div className='event'>
-              <img src='https://images.pexels.com/photos/7219244/pexels-photo-7219244.jpeg?auto=compress&cs=tinysrgb&w=600' alt='image-party' className='img-preview-event'/>
+              <img src='https://images.pexels.com/photos/3534022/pexels-photo-3534022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='image-party' className='img-preview-event'/>
               <p className='title-event'><strong>Faça sua festa</strong></p>
               <p className='text-about-event'>Transforme sua festa em uma experiência deliciosa e divertida! Reserve nossa pizzaria para seu evento e desfrute de uma festa personalizada com pizzas irresistíveis e um ambiente acolhedor.</p>
               <Link to="/events" className='link-knowMore' >Saber mais...</Link>

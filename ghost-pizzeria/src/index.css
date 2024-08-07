@@ -15,3 +15,7 @@ code {
 .principal-div {
   height: 99vh;
 }
+
+a {
+  color: rgb(221, 8, 8);
+}

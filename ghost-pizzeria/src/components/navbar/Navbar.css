@@ -1,4 +1,3 @@
-/*Esquema de cores vermleho e laranja */
 a {
     text-decoration: none;
 }
@@ -13,19 +12,21 @@ a {
     padding: 3px;
     z-index: 1000; 
     margin-bottom: 15rem;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.39);
 }
 
 /*PRE-HEADER*/
 .headerPage-pre{
-background-color: rgb(221, 8, 8);
-color: white;
-margin: 0;
-height: 5vh;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
+    background-color: rgb(221, 8, 8);
+    color: white;
+    margin: 0;
+    height: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
 }
 
 .headerPage-pre-ul-authentication{
@@ -80,24 +81,28 @@ align-items: center;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    height: auto;
 }
 
-
 .headerPage-logo{
-    font-size: 45px;
-    padding: 10px;
+    font-size: 35px;
+    padding: 5px;
+}
+
+.headerPage-nav {
+    width: 40%;
 }
 
 .headerPage-nav-ul{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 94%;
     list-style: none;
     font-size: 18px;
     font-weight: 500;
-
 }
 
 .headerPage-input-search{
@@ -107,6 +112,17 @@ align-items: center;
    padding: 15px;
    border-radius: 5px;
    font-size: 18px;
+}
+
+.li-nav{
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.li-nav:hover{
+    border-color: rgb(221, 8, 8);;
 }
 
 .headerPage-button-search{
@@ -122,4 +138,12 @@ align-items: center;
 .headerPage-button-search:hover {
     cursor: pointer;
     background-color: rgba(128, 128, 128, 0.664);
+}
+
+.btn-cart {
+    transform: translateX(0) scale(1);
+}
+
+.btn-cart:hover, .btn-cart:focus {
+    transform: translateX(1px) scale(1.2);
 }

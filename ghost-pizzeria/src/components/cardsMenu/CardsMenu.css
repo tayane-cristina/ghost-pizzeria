@@ -1,6 +1,21 @@
-.cardsMenu-ul {
-    width: 75%;
+.principal-div-cardsMenu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cardsMenu-h2 {
+    font-size: 45px;
+    text-align: start;
+    width: 65%;
     margin: auto;
+    font-weight: 400;
+}
+
+.cardsMenu-ul {
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

@@ -5,7 +5,7 @@ const Party = () => {
   return (
     <div className='principal-div-party'>
       <h2 className='party-h2'>Celebre seu Aniversário na Ghost Pizzaria!</h2>
-      <img className='party-img' src='https://images.pexels.com/photos/7219244/pexels-photo-7219244.jpeg?auto=compress&cs=tinysrgb&w=600' alt='image-party-in-pizzaria'/>
+      <img className='party-img' src='https://images.pexels.com/photos/3534022/pexels-photo-3534022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='image-party-in-pizzaria'/>
 
       <ul className='party-infor'> Por que escolher a Ghost Pizzaria
         <li> Ambiente Acolhedor: Espaço decorado especialmente para criar o clima perfeito para a sua celebração.</li>

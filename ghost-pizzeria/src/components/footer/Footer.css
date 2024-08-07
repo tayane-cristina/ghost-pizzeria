@@ -1,9 +1,11 @@
 .footer-principal-div{
-    background-color: rgb(122, 4, 4);
+    background-color: rgb(194, 9, 9);
     color: rgb(247, 247, 247);
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin-top: 10rem;
+    width: 100%;
 }
 
 .footer-principal-div p{
@@ -12,6 +14,7 @@
 
 .footer-infor{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -28,6 +31,7 @@
 
 .footer-ul-SocialMedial {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     width: 20%;

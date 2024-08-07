@@ -54,7 +54,6 @@ const CardsMenu = ({list}) => {
         if (item.quantity > 1) {
           acc.push({ ...item, quantity: item.quantity - 1 });
         }
-        // Se a quantidade for 1, o item não é adicionado ao novo carrinho, ou seja, ele é removido.
       } else {
         acc.push(item);
       }
@@ -63,19 +62,21 @@ const CardsMenu = ({list}) => {
   };
 
   return (
-    <ul className='cardsMenu-ul'>
-      {list.map((item, index) => (
-        <li className='cardsMenu-li' key={index}>
-            <img className='cardsMenu-img' src={item.image} alt={`image-${item.displayName}`} />
-            <p><strong>{item.displayName}</strong></p>
-            <p>R$ {item.price.toFixed(2)}</p>
-            <p>Descrição: {item.description}</p>
-            <p>Avaliação: {item.rate} </p>
-            <button className='cardsMenu-button-addInCart' onClick={() => addAtCart(item)}>Adicionar ao carrinho</button>
-        </li>
-      ))}
+    <div className='principal-div-cardsMenu'>
+      <ul className='cardsMenu-ul'>
+        {list.map((item, index) => (
+          <li className='cardsMenu-li' key={index}>
+              <img className='cardsMenu-img' src={item.image} alt={`image-${item.displayName}`} />
+              <p><strong>{item.displayName}</strong></p>
+              <p>R$ {item.price.toFixed(2)}</p>
+              <p>Descrição: {item.description}</p>
+              <p>Avaliação: {item.rate} </p>
+              <button className='cardsMenu-button-addInCart' onClick={() => addAtCart(item)}>Adicionar ao carrinho</button>
+          </li>
+        ))}
+      </ul>
       <Cart cartItems={cart} removeItem={removeItem} increaseItem={increaseItem} decreaseItem={decreaseItem} total={total} orderClosed={orderClosed}/>
-    </ul>
+    </div>
   );
 };
 

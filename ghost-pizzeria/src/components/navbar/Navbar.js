@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className='headerPage-pre'>
             <ul className='headerPage-pre-ul-authentication'>
                 <Link to='/'><span>GHOST Pizzeria</span></Link>
-                <Link to='/cart'><li><img src='https://img.icons8.com/?size=30&id=59997&format=png' alt='imagem-de-carrinho-de-compras'/></li></Link>
+                <Link to='/menu'><li className='btn-cart'><img src='https://img.icons8.com/?size=30&id=59997&format=png' alt='imagem-de-carrinho-de-compras'/></li></Link>
             </ul>
             <ul className='headerPage-ul-SocialMedial'>
                 <li><img className='headerPage-ul-SocialMedial-img' src='https://img.icons8.com/?size=50&id=16733&format=png' alt='image-whatsApp'/></li>
@@ -19,11 +19,11 @@ const Navbar = () => {
 
         <header className='headerPage-principalHeader'>
             <Link to='/'><h2 className='headerPage-logo'>GHOST</h2></Link>
-            <nav>
+            <nav className='headerPage-nav'>
                 <ul className='headerPage-nav-ul'>
-                    <Link to="/local"><li>Restaurantes</li></Link>
-                    <Link to="/events"><li>Programações</li></Link>
-                    <Link to="/menu"><li>Cardápio</li></Link>
+                    <Link to="/local"><li className='li-nav'>Restaurantes</li></Link>
+                    <Link to="/events"><li className='li-nav'>Programações</li></Link>
+                    <Link to="/menu"><li className='li-nav'>Cardápio</li></Link>
                 </ul>
             </nav>
         </header>

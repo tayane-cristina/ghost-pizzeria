@@ -22,7 +22,7 @@ function App() {
           <Route path='/menu' element={<FilterItem list={menu} />}/>
           <Route path='/events' element={<Events />}/>
           <Route path='/local' element={<Local />}/>
-          </Routes>
+        </Routes>
   
           <Footer />
           

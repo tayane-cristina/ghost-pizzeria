@@ -2,7 +2,13 @@
     width: 450px;
     height: 300px;
     border-radius: 5px;
+    transform: translateX(0) scale(1);
+    transition: 1.5;
 }
+
+.img-prev:hover, .img-prev:focus{
+    transform: translateX(2px) scale(1.1);
+} 
 
 .principal-div-img-prev {
     display: flex;

@@ -6,6 +6,7 @@ import Cart from '../cart/Cart';
 const Menu = () => {
   return (
     <div>
+      <h2>Menu</h2>
        <FilterItem list={menu}/>
        <Cart />
     </div>
