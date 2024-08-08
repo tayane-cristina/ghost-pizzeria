@@ -21,9 +21,9 @@ const Navbar = () => {
             <Link to='/'><h2 className='headerPage-logo'>GHOST</h2></Link>
             <nav className='headerPage-nav'>
                 <ul className='headerPage-nav-ul'>
-                    <Link to="/local"><li className='li-nav'>Restaurantes</li></Link>
                     <Link to="/events"><li className='li-nav'>Programações</li></Link>
                     <Link to="/menu"><li className='li-nav'>Cardápio</li></Link>
+                    <Link to="/about"><li className='li-nav'>Sobre</li></Link>
                 </ul>
             </nav>
         </header>

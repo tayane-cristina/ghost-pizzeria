@@ -3,7 +3,7 @@ import './Party.css'
 
 const Party = () => {
   return (
-    <div className='principal-div-party'>
+    <div className='principal-div-party card-events'>
       <h2 className='party-h2'>Celebre seu Aniversário na Ghost Pizzaria!</h2>
       <img className='party-img' src='https://images.pexels.com/photos/3534022/pexels-photo-3534022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='image-party-in-pizzaria'/>
 

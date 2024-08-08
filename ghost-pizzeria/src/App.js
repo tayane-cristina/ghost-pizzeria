@@ -8,8 +8,7 @@ import CardsMenu from './components/cardsMenu/CardsMenu';
 import FilterItem from './components/filterItem/FilterItem';
 import { menu } from './data/Data';
 import Events from './components/events/Events';
-import Local from './components/local/Local';
-import Cart from './components/cart/Cart';
+import About from './components/pages/about/About';
 
 
 function App() {
@@ -21,7 +20,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/menu' element={<FilterItem list={menu} />}/>
           <Route path='/events' element={<Events />}/>
-          <Route path='/local' element={<Local />}/>
+          <Route path='/about' element={<About />}/>
         </Routes>
   
           <Footer />

@@ -1,6 +1,6 @@
 .principal-div-party {
-   width: 70vw;
-   margin: 2rem;
+   width: 100%;
+   margin: auto;
 }
 
 .party-img {
@@ -9,21 +9,27 @@
     border-radius: 50%;
 }
 
-.party-infor {
-    background-color: rgba(0, 0, 0, 0.719);
-    font-size: 20px;
-    color: white;
+.card-event {
+    font-size: 25px;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: start;
     font-weight: 400;
-    font-weight: 900;
+    padding: 10px;
+}
+
+.party-infor {
+    font-weight: 600;
+    font-size: 25px;
 }
 
 .party-infor li {
     list-style: none;
     padding: 6px;
-    font-weight: 100;
+    font-size: 20px;
+    font-weight: 400;
 }
+
 
 .party-h2 {
     font-size: 35px;

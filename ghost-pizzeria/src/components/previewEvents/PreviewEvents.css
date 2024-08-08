@@ -1,17 +1,16 @@
 .principal-div-preview-events {
-    width: 80vw;
+    width: 80%;
+    height: 90%;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(185, 179, 179, 0.521);
     border-radius: 10px;
     margin-bottom: 30px;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .events-h2 {
-    color: rgb(128, 128, 128);
-    font-size: 35px;
+    color: rgb(194, 9, 9);
+    font-size: 45px;
     font-family: Verdana;
 }
 
@@ -21,22 +20,31 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    height: 55vh;
     padding: 20px;
+    height: 100%;
 }
 
 .event {
     width: 30%;
-    height: 90%;
+    height: 30vw;
     padding: 5px;
-    font-size: 20px;
-    background-color: white;
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 5px;
     padding: 15px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.253);
+}
+
+.title-event {
+    font-size: 29px;
 }
 
 .img-preview-event {
-    width: 250px;
-    height: 250px;
+    width: 80%;
+    height: 30vh;
     border-radius: 5px;
 }

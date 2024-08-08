@@ -1,7 +1,7 @@
 .principal-div-all-you-can-eat {
-    width: 35vw;
-    height: 85vh;
-    margin: 2rem;
+    width: 100%;
+    height: auto;
+    margin: auto;
 }
 
 
@@ -11,17 +11,20 @@
     border-radius: 50%;
 }
 
-.all-you-can-eat-infor {
-    background-color: rgba(0, 0, 0, 0.61);
+.card-event {
     font-size: 20px;
-    color: white;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: start;
     font-weight: 400;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .all-you-can-eat-h2 {
     font-size: 35px;
-    color: white;
+    color: rgb(7, 7, 7);
 }

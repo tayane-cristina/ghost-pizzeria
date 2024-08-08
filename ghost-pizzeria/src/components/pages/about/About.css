@@ -1,0 +1,33 @@
+.principal-div-about {
+    width: 80%;
+    height: 100vh;
+    margin:auto;
+    margin-top: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-h2 {
+    font-size: 55px;
+}
+
+.div-text-about{
+    height: 70%;
+    width: 70%;
+    margin: auto;
+}
+
+.about-subTitle {
+    font-size: 45px;
+    font-weight: 500
+}
+
+.about-text {
+    font-size: 30px;
+    line-height: 2.3rem;
+    font-weight: 300;
+}
+

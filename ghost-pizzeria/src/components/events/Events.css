@@ -1,32 +1,32 @@
 .div-principal-events {
-    background-color: tomato;
     height: auto;
     padding: 20px;
-    width: 90%;
+    width: 80%;
     margin: auto;
-    background-color: rgba(7, 7, 7, 0.87);
-    background-size: auto;
-    background-position: center;
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-top: 15rem;
     border-radius: 10px;
 }
 
 .events-calendar {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: start;
+    margin-top: 3rem;
 }
 
 .h2-events {
-    color: white;
-    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-size: 55px;
 }
 
 .events-text {
-    background-color: rgba(5, 5, 5, 0.377);
-    color: white;
-    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
     padding: 10px;
 }

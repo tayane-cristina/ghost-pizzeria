@@ -1,7 +1,6 @@
 .principal-div-crazyTuesday {
-    width: 35vw;
-    height: 85vh;
-    margin: 2rem;
+    width: 100%;
+    height: auto;
 }
 
 .crazy-tuesday-h2 {
@@ -15,14 +14,13 @@
     border-radius: 50%;
 }
 
-.crazy-tuesday-infor {
-    background-color: rgba(0, 0, 0, 0.61);
+.card-event {
     font-size: 20px;
-    color: white;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: start;
     font-weight: 400;
-    padding: 15px;
+    padding: 10px;
 }
 
 .crazy-tuesday-infor li {

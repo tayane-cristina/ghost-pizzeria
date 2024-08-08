@@ -5,8 +5,7 @@ import {Link} from 'react-router-dom'
 const PreviewEvents = () => {
   return (
     <div className='principal-div-preview-events'>
-
-        <h2 className='events-h2'>Eventos</h2>
+        <h2 className='events-h2'>Participe dos nossos eventos</h2>
         <div className='events-preview-events'>
           <div className='event'>
               <img src='https://images.pexels.com/photos/1788852/pexels-photo-1788852.jpeg?auto=compress&cs=tinysrgb&w=600' alt='image-rodizio' className='img-preview-event'/>

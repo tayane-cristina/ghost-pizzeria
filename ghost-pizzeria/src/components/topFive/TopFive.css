@@ -1,10 +1,10 @@
 .principal-div-top-five {
-    width: 80vw;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(185, 179, 179, 0.521);
     border-radius: 10px;
     margin-bottom: 30px;
+    margin-bottom: 2rem;
 }
 
 .top-five-ul {
@@ -12,6 +12,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 95%;
+    margin: auto;
     height: auto;
     padding: 30px;
     justify-content: space-evenly;
@@ -32,10 +33,12 @@
 .top-five-li {
     background-color: rgb(248, 248, 248);
     list-style: none;
-    height: 40vh;
+    height: 90%;
     margin: 10px;
     padding: 15px;
     border: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.253);
     
 }
 
@@ -46,13 +49,13 @@
 }
 
 .top-five-img {
-    width: 250px;
+    width: 100%;
     height: 150px;
     border-radius: 5px;
 }
 
 .h2-top-five {
-    color: rgb(128, 128, 128);
-    font-size: 35px;
+    color: rgb(194, 9, 9);
+    font-size: 45px;
     font-family: Verdana;
 }
