@@ -84,8 +84,16 @@ a {
 }
 
 .headerPage-logo{
-    font-size: 35px;
+    font-size: 45px;
     padding: 5px;
+    font-family: "Sankofa Display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    transition: 0.3s;
+}
+
+.headerPage-logo:hover {
+    color: rgb(145, 9, 9);
 }
 
 .headerPage-nav {

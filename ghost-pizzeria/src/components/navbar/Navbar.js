@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className='principal-div-navbar'>
         <div className='headerPage-pre'>
             <ul className='headerPage-pre-ul-authentication'>
-                <Link to='/'><span>GHOST Pizzeria</span></Link>
+                <Link to='/'><span>GHOST</span></Link>
                 <Link to='/menu'><li className='btn-cart'><img src='https://img.icons8.com/?size=30&id=59997&format=png' alt='imagem-de-carrinho-de-compras'/></li></Link>
             </ul>
             <ul className='headerPage-ul-SocialMedial'>
@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
 
         <header className='headerPage-principalHeader'>
-            <Link to='/'><h2 className='headerPage-logo'>GHOST</h2></Link>
+            <Link to='/'><h2 className='headerPage-logo'>GHOST PIZZARIA</h2></Link>
             <nav className='headerPage-nav'>
                 <ul className='headerPage-nav-ul'>
                     <Link to="/events"><li className='li-nav'>Programações</li></Link>
